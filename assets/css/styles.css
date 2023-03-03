@@ -59,6 +59,9 @@ body {
   text-decoration: none;
   color: #5f5b53;
 }
+.nav_bar_ul > li:hover {
+  text-decoration: underline;
+}
 .nav_bar_ul .nav_bar_sign a {
   color: #ffffff;
   font-weight: 600;
@@ -132,6 +135,10 @@ body {
   line-height: 3rem;
   color: #5f5b53;
 }
+.mor_header_image span:hover a {
+  background-color: #ffffff;
+  color: #fea31b;
+}
 .mor_header_image {
   display: flex;
   align-items: center;
@@ -141,6 +148,7 @@ body {
   border-radius: 30px;
   padding: 15px 30px;
   margin: 0px 23px 0px 0px;
+  box-shadow: 0px 0px 5px #191918;
 }
 .mor_header_image a {
   text-decoration: none;
@@ -262,6 +270,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.list_st_p > p {
+  cursor: pointer;
+}
+.list_st_p #list_p:active {
+  box-shadow: 0px 0px 5px #171100;
+}
 .list_st_p_off {
   padding: 8px 22px;
   display: flex;
@@ -298,6 +312,15 @@ body {
   background-color: #171100;
   border-radius: 25px;
 }
+.list_st_p_off > p {
+  cursor: pointer;
+}
+.list_st_p_off .off_book:active {
+  background-color: #fea31b;
+  box-shadow: 0px 0px 5px #171100;
+  color: #ffffff;
+}
+
 .far_body_tes {
   background-color: #2e2100;
 }
@@ -361,6 +384,9 @@ body {
   color: #5f5b53;
   padding: 16px 0px 0px 0px;
 }
+.fea_txt_p span:active > a {
+  box-shadow: 0px 0px 5px #171100;
+}
 .cha_tes {
   width: 770px;
 }
@@ -380,6 +406,9 @@ body {
   margin-top: 200px;
   display: flex;
   justify-content: space-between;
+}
+.fea_body_img span:active > a {
+  box-shadow: 0px 0px 5px #171100;
 }
 .fea_img_h2 h2 {
   font-size: 3.8rem;
@@ -435,6 +464,9 @@ body {
   box-shadow: 0px 0px 3px #5f5b53;
   border-radius: 12px;
 }
+.blog_img_st p:active > a {
+  box-shadow: 0px 0px 5px #171100;
+}
 .blog_img_st span {
   position: relative;
   display: inline-block;
@@ -478,6 +510,10 @@ body {
   height: 467px;
   box-shadow: 0px 0px 3px #5f5b53;
   border-radius: 12px;
+}
+.blog_img_cen p:active > a {
+  box-shadow: 0px 0px 5px #171100;
+  background-color: #fea31b;
 }
 .blog_img_cen span {
   position: relative;
@@ -523,6 +559,10 @@ body {
   height: 467px;
   box-shadow: 0px 0px 3px #5f5b53;
   border-radius: 12px;
+}
+.blog_img_en p:active > a {
+  box-shadow: 0px 0px 5px #171100;
+  background-color: #fea31b;
 }
 .blog_img_en h4 {
   font-size: 1.6rem;
@@ -778,8 +818,10 @@ body {
 .bf_at {
   position: absolute;
   top: 108px;
-  width: 1305px;
+  width: 12 89px;
   height: 1px;
-  margin: 0px 135px;
+  margin: 0px 135px 0px 135px;
   background-color: #59554b;
+  box-sizing: border-box;
+  display: inline-block;
 }
